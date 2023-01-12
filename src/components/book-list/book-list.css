@@ -1,0 +1,13 @@
+.cart-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    list-style: none;
+    /* margin-bottom: 50px; */
+}
+
+.cart-item {
+    
+}

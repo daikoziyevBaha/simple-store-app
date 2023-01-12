@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    min-height: 80px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.header .logo {
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header .logo:hover {
+    border-bottom: 2px solid black;
+}
+
+.header .cart {
+    display: flex;
+    gap: .5rem;    
+}
+
+.header .cart .cart-icon{
+    width: 25px;
+}
+
+.header .cart .cart-icon img{
+    width: 100%;
+}

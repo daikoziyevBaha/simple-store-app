@@ -1,0 +1,31 @@
+.order-table {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.action-btns {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.action-btns button {
+    width: 15%;
+    padding: 3px;
+}
